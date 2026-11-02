@@ -1,0 +1,2 @@
+async function execute({stopOld,saveNew,startNew,waitOldOff,update}){await stopOld();update('旧实例已请求停机，新实例正在启动');const next=saveNew();const results=await Promise.all([startNew(next),waitOldOff()]);return{selection:next,connection:results[0]};}
+module.exports={execute};

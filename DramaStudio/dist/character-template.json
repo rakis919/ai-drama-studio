@@ -1,0 +1,113 @@
+{
+  "project_id": "",
+  "version": "1.3",
+  "file_type": "character_bible",
+  "characters": [
+    {
+      "character_id": "CHAR_001",
+      "name": "角色名",
+      "role": "主角",
+      "type": "human_adult",
+      "appearance": {
+        "face_and_hair": "填写五官与发型",
+        "clothing": "填写服装与鞋子",
+        "proportions": "填写身高和身材比例"
+      },
+      "personality": [],
+      "story_arc": "",
+      "voice": {
+        "language": "zh-CN",
+        "style": "",
+        "voice_reference": null
+      },
+      "animation_rules": [],
+      "reference_images": {
+        "portrait": null,
+        "front": null,
+        "left": null,
+        "back": null,
+        "four_view": null
+      },
+      "prompt_anchor_zh": "填写人物身份、五官、发型、服装、身材比例，写实风格。",
+      "front_prompt": "单一人物，严格正面，全身完整入镜，头顶和双脚不裁切，纯白背景，写实风格。结合本角色具体外观描述。",
+      "multiview_prompt": "以已确认正面图为唯一身份参考，保持同一人物五官、发型、服装、身材比例和写实风格一致。白底，单幅单主体，严格指定角度，无拼图、额外人物或文字。背景必须为均匀纯白（#FFFFFF），不要灰底、灰色渐变或矩形底块。",
+      "generation": {
+        "character_sheet": {
+          "layout": "portrait_front_side_back",
+          "background": "white",
+          "width": 2560,
+          "height": 1440,
+          "panels": [
+            {
+              "angle": "portrait",
+              "x": 0,
+              "width": 0.4
+            },
+            {
+              "angle": "front",
+              "x": 0.4,
+              "width": 0.2
+            },
+            {
+              "angle": "left",
+              "x": 0.6,
+              "width": 0.2
+            },
+            {
+              "angle": "back",
+              "x": 0.8,
+              "width": 0.2
+            }
+          ],
+          "sheet_prompt": "横向白底，左侧40%高清正面半身大头像，右侧依次全身正面、单个90度侧面、全身背面，各20%。同一人物，五官、发型、服装、身材比例与写实风格一致，不要第二个侧面、额外人物或文字。",
+          "video_policy": "禁止整张母图直接用于视频；必须先裁剪单视图。",
+          "view_sizes": {
+            "portrait": {
+              "width": 1024,
+              "height": 1440
+            },
+            "front": {
+              "width": 512,
+              "height": 1440
+            },
+            "left": {
+              "width": 512,
+              "height": 1440
+            },
+            "back": {
+              "width": 512,
+              "height": 1440
+            }
+          },
+          "generation_order": [
+            "portrait",
+            "front",
+            "left",
+            "back"
+          ],
+          "identity_reference": "portrait"
+        }
+      },
+      "negative_constraints": [
+        "不要左右两个侧面",
+        "不要额外人物或文字",
+        "不要改变人物身份、服装或风格"
+      ],
+      "imageSize": {
+        "width": 512,
+        "height": 1440
+      },
+      "portrait_prompt": "填写角色的五官、年龄、发型与上衣。单人高清正面半身大头像，完整头顶和肩膀，均匀纯白背景（#FFFFFF），不要灰底、渐变、文字或额外人物。"
+    }
+  ],
+  "relationships": [],
+  "global_consistency": {
+    "reference_images_are_identity_guides": true,
+    "multiple_views_represent_one_character": true,
+    "do_not_copy_reference_sheet_layout": true,
+    "do_not_duplicate_characters": true,
+    "preserve_costume_and_body_proportions": true,
+    "character_identity_priority": "已确认正面图优先",
+    "reference_images_status": "未生成"
+  }
+}

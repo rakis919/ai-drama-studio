@@ -1,0 +1,1188 @@
+{
+  "created": "2026-11-02",
+  "platforms": [
+    "DramaStudio",
+    "MVStudio"
+  ],
+  "external_modules_not_found": [],
+  "redactions": [
+    {
+      "file": "DramaStudio/lightcc-manager.cjs",
+      "kind": "cloud account default connection"
+    },
+    {
+      "file": "GptWork/platform-cloud-20261031/连接云端.ps1",
+      "kind": "legacy SSH host"
+    },
+    {
+      "kind": "real project snapshots and one-off creative scripts omitted from public upload",
+      "files": [
+        "examples/current-drama-project.json",
+        "examples/current-mv-project.json",
+        "MVStudio/rewrite-user-aligned-storyboard.py",
+        "MVStudio/verify-chain-stop.py",
+        "MVStudio/verify-frame-batch.py",
+        "MVStudio/verify-planning.py",
+        "MVStudio/verify-project-aspect.py",
+        "MVStudio/verify-song-engine.py",
+        "MVStudio/verify-timeline-composition.py",
+        "MVStudio/verify-video-engine.py",
+        "MVStudio/verify-video-options-progress.py",
+        "MVStudio/write-storyboard.py"
+      ]
+    }
+  ],
+  "secret_scan_hits": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 291,
+      "sha256": "3d89553ccb76f2f0a0c110bff394f3dda20eaae22300ad6d655ff043e76db74e"
+    },
+    {
+      "path": "DramaStudio/audio-api.cjs",
+      "bytes": 10431,
+      "sha256": "532e8e316b453c05dbbced113d7c5ae4217e07c613b8f8db25310fa177359d8b"
+    },
+    {
+      "path": "DramaStudio/audio-batch-api.cjs",
+      "bytes": 4870,
+      "sha256": "2d4f332aa02f18f7eb01def283c92b355c130927596cedc25f29e79bccb01d0f"
+    },
+    {
+      "path": "DramaStudio/audio-mix.cjs",
+      "bytes": 3833,
+      "sha256": "134f34824925e9343c772e7cb24ccd33f9caac5f36517f97f42c77e6a433d70d"
+    },
+    {
+      "path": "DramaStudio/audio-worker.py",
+      "bytes": 6544,
+      "sha256": "9d231642050b2755803483599c38c86ed84e219e220722367fb8e688be83d4c5"
+    },
+    {
+      "path": "DramaStudio/auto-next-first.cjs",
+      "bytes": 1643,
+      "sha256": "ccecf2652b50199580b536ea1c844b6fe070d1c3c853dbbad1c6c4388a4747cc"
+    },
+    {
+      "path": "DramaStudio/batch-auto-frames.cjs",
+      "bytes": 4197,
+      "sha256": "d86420a2fc429133442dee2de1596410b7c364e8bee3547b0b307a1239ad43c3"
+    },
+    {
+      "path": "DramaStudio/character-cancel-api.cjs",
+      "bytes": 2776,
+      "sha256": "5e0ad1ee101a6430092a4155efda1a685b540b389bbcffba7a1cfd770fa12d26"
+    },
+    {
+      "path": "DramaStudio/character-reference-upload.cjs",
+      "bytes": 4114,
+      "sha256": "64bd80e53f9111265f653cc19eece0ca20078fa8e335655b049e23c71f22a0d4"
+    },
+    {
+      "path": "DramaStudio/character-upscale-apply.cjs",
+      "bytes": 5806,
+      "sha256": "89e99fbd71f4d260855ee71ec1f3b6c8dfff9de25bde745710d61a8ad033ea29"
+    },
+    {
+      "path": "DramaStudio/cloud-reference-upload.cjs",
+      "bytes": 3826,
+      "sha256": "a949d49fb8cafce556e5b056b80785968c64cec1411b99d3839f53a99063aeab"
+    },
+    {
+      "path": "DramaStudio/cloud-switch-tasks.cjs",
+      "bytes": 1451,
+      "sha256": "928acd7cd6d96d6d0c75a1acf454d666d29d454a65ca944da469043e89c8a0ca"
+    },
+    {
+      "path": "DramaStudio/comfy-force-stop-api.cjs",
+      "bytes": 3363,
+      "sha256": "ba30578d143099c303c3a4bebaacc5b95f12a5594894fc824d15354e2e2b7b7d"
+    },
+    {
+      "path": "DramaStudio/comfy-launch-api.cjs",
+      "bytes": 2944,
+      "sha256": "55f65df33c208cbe191470fdaff7962dbcbf29e8bc8f770ef9cbf0e872d1427c"
+    },
+    {
+      "path": "DramaStudio/contact-sheet-api.cjs",
+      "bytes": 3368,
+      "sha256": "06ca20e27f11a672577b3ca2e5411d66b9b330e72436b7eb72edf87655b1b46b"
+    },
+    {
+      "path": "DramaStudio/current-front-workflow.cjs",
+      "bytes": 1692,
+      "sha256": "3a07e70207861c2fb491a877a136326ff55fc107d4ac051ff5cdd5502498a39e"
+    },
+    {
+      "path": "DramaStudio/delete-first-frame.cjs",
+      "bytes": 2248,
+      "sha256": "3fa9fe781728262d56a84e8789bb3907527ed2ece41a84a03af1f0bd82ef453b"
+    },
+    {
+      "path": "DramaStudio/delete-shot-videos.cjs",
+      "bytes": 3359,
+      "sha256": "a74072762bfa7bbcae600ed6fc48313c141c974c0488528d0c1aaa7dedd35a5d"
+    },
+    {
+      "path": "DramaStudio/dist/app.js",
+      "bytes": 19565,
+      "sha256": "12d583c4631b661f1ed229e1a226cafe1bb07c2f980cd0594108172b879f40c7"
+    },
+    {
+      "path": "DramaStudio/dist/apple-touch-icon.png",
+      "bytes": 11394,
+      "sha256": "7e6f05925b5129d8c726db2e6ca12a0dac73d3eb6ce205a864435c36f2fb58e0"
+    },
+    {
+      "path": "DramaStudio/dist/audio-sheet.js",
+      "bytes": 19656,
+      "sha256": "6462a6055ac45bfa85bb64a54d870852aff82c25aa5e4add3ddade945620a53b"
+    },
+    {
+      "path": "DramaStudio/dist/audio-timeline-import.js",
+      "bytes": 476,
+      "sha256": "9678173452170a1eb3e2943400ad29db9e2dd900f5621f72e1e3765859dd6cd5"
+    },
+    {
+      "path": "DramaStudio/dist/audio-timeline-schema.js",
+      "bytes": 7885,
+      "sha256": "0dff269ff5ed470dce23a2e200cb603970efbb2a6b7c4707f6004985df90d15f"
+    },
+    {
+      "path": "DramaStudio/dist/auto-next-first-ui.js",
+      "bytes": 1624,
+      "sha256": "ceffc8f297be5c89336cc49eb9c0fb7a4e8233b37467b6b192e0cdcccc0201b9"
+    },
+    {
+      "path": "DramaStudio/dist/browser-compat.js",
+      "bytes": 571,
+      "sha256": "8a2cecb8af0c040c598f80d3b9604111806c2f025044413e9822616cb163de25"
+    },
+    {
+      "path": "DramaStudio/dist/character-actions.js",
+      "bytes": 5599,
+      "sha256": "dfd7e2aad9884c491057f478de01375c471859efa0c7c6eb9c5753d6bd6e4e38"
+    },
+    {
+      "path": "DramaStudio/dist/character-auto-use.js",
+      "bytes": 2798,
+      "sha256": "1c7ea32fde7228bf219512f4c4b848f7b3c56f713c0f10f3b67011881a0e01b6"
+    },
+    {
+      "path": "DramaStudio/dist/character-background.js",
+      "bytes": 1465,
+      "sha256": "3c212d12544d7be0ecb7e55038a2240c786795912d1b9e16d678d030afd221a8"
+    },
+    {
+      "path": "DramaStudio/dist/character-batch-ui.js",
+      "bytes": 10979,
+      "sha256": "5f116eb1c72a56030110517eb40dd689662ac9e67c63107bf72db5d6428c2270"
+    },
+    {
+      "path": "DramaStudio/dist/character-crop-ui.js",
+      "bytes": 6399,
+      "sha256": "1a0d5ce9a47f64fdea9c2e6813a84d38b640c7cc74b40f1b6c1f69dc46a29ccc"
+    },
+    {
+      "path": "DramaStudio/dist/character-details.js",
+      "bytes": 4690,
+      "sha256": "40ae1939687d29402c07c0e6c1e2965e2593d771c912372d39897e51467c5805"
+    },
+    {
+      "path": "DramaStudio/dist/character-feature-ui.js",
+      "bytes": 3034,
+      "sha256": "f50cd278a14c7481107c7c86fae5fc49fda1bdd7312e3bb574c036627acf2478"
+    },
+    {
+      "path": "DramaStudio/dist/character-image-viewer.js",
+      "bytes": 6147,
+      "sha256": "c9c6730bdffc075e7105e407a0f2d98a894fcda48ad99e3c720e8d654b373ae2"
+    },
+    {
+      "path": "DramaStudio/dist/character-import.js",
+      "bytes": 5871,
+      "sha256": "43cfd6809dd77e36ee96365745047100656b62cb02a3f8a369e4910cb38ef65f"
+    },
+    {
+      "path": "DramaStudio/dist/character-multiview-only.js",
+      "bytes": 2004,
+      "sha256": "c37c4bb83f4a0ed9993722f82f346459e6ab20d992783eb9139d18656bf6d1a9"
+    },
+    {
+      "path": "DramaStudio/dist/character-one-click.js",
+      "bytes": 13389,
+      "sha256": "ad86ac19d49c331ee957fe175f17abd68aba156c3c2a9a100b775b96f0b91d43"
+    },
+    {
+      "path": "DramaStudio/dist/character-portrait-entry.js",
+      "bytes": 10386,
+      "sha256": "3ec642489e01a610e29f832ab80c7ada03edde0f213478b4a5290f524af1ddf5"
+    },
+    {
+      "path": "DramaStudio/dist/character-settings.js",
+      "bytes": 9008,
+      "sha256": "2571d970fafe08c47fe6a4077bf2232bc2ac61e26137809db94aaf482179d30f"
+    },
+    {
+      "path": "DramaStudio/dist/character-sheet-main.js",
+      "bytes": 14569,
+      "sha256": "2e0e69cee085daa74cdd9952edd6ed80f48cb91c1b8b9ea03fe5e7c81732274a"
+    },
+    {
+      "path": "DramaStudio/dist/character-sheet-spec.js",
+      "bytes": 2187,
+      "sha256": "f8a1fd32569edc29d075969be9aaf4dbe27f8c08cc66c01491937266a9973e96"
+    },
+    {
+      "path": "DramaStudio/dist/character-sheet-upload.js",
+      "bytes": 2443,
+      "sha256": "51dd2fe676121cf710bc4bd7b466b9b070ea527a75efb0c007ce539723f9fe97"
+    },
+    {
+      "path": "DramaStudio/dist/character-template.json",
+      "bytes": 3982,
+      "sha256": "8f8a359d6f354b7c80e700bdb4150b2a42de5a058b46c9008b481f302eb7f344"
+    },
+    {
+      "path": "DramaStudio/dist/character-upload-replace.js",
+      "bytes": 3058,
+      "sha256": "dbd29908622939bb57188216ec0f294ce3db58bccdcded9aab0454d68600bf95"
+    },
+    {
+      "path": "DramaStudio/dist/character-upscale-batch-ui.js",
+      "bytes": 7675,
+      "sha256": "6f0088f37c7024682a3d3e2487c88b3b15be3b246c4b80121a63b1a8b9ea1251"
+    },
+    {
+      "path": "DramaStudio/dist/character-view-prompts.js",
+      "bytes": 4437,
+      "sha256": "cfd9b29ccc0533c4453891d08acf511199a087f0b03002e8498b363a630f9270"
+    },
+    {
+      "path": "DramaStudio/dist/contact-sheet-ui.js",
+      "bytes": 10923,
+      "sha256": "4458f6a56a350fafdc2616425314624e6fd43c9a491980854ae39b17c258563b"
+    },
+    {
+      "path": "DramaStudio/dist/custom-reference-ui.js",
+      "bytes": 10135,
+      "sha256": "1f119fddaad844e7e6d4dce3d303a7b7512bf6daccec887c5f30a16831c95af9"
+    },
+    {
+      "path": "DramaStudio/dist/disk-save-ui.js",
+      "bytes": 6029,
+      "sha256": "fc9e003d7864e59741db09a947e65a4cb7d5e2a50dabb89d0e383a76cae64112"
+    },
+    {
+      "path": "DramaStudio/dist/editable-shot-references.js",
+      "bytes": 2505,
+      "sha256": "4f86a10a885dcb8f5144d2f10a66fa5d74ea6d0bee0f5d8e970f30d200b2990b"
+    },
+    {
+      "path": "DramaStudio/dist/external-image-ui.js",
+      "bytes": 6036,
+      "sha256": "feddb1a1d42da8ae976a9de0412658d454de84b480c0a84bddeb19162c92d786"
+    },
+    {
+      "path": "DramaStudio/dist/favicon.ico",
+      "bytes": 10358,
+      "sha256": "8cf22f77b71b0849e7d7a6765018d7f830bea2d339967ad64ea225eed0a0b9bc"
+    },
+    {
+      "path": "DramaStudio/dist/favicon.svg",
+      "bytes": 555,
+      "sha256": "42f2568b19e9cbf13a7cf025df97fa769a2466063e8bba28fb6b2a3efb69dbcf"
+    },
+    {
+      "path": "DramaStudio/dist/film-export-ui.js",
+      "bytes": 6904,
+      "sha256": "d18a5873580d9ae5f2b13b56f0b15d83dde5dd4139027aa1de1e9b5ead87039d"
+    },
+    {
+      "path": "DramaStudio/dist/film-preview-ui.js",
+      "bytes": 2872,
+      "sha256": "2d3aed574d759de9508d600490767559ef50b4d97ba073832b16fe245fb4a466"
+    },
+    {
+      "path": "DramaStudio/dist/film-record-actions.js",
+      "bytes": 1696,
+      "sha256": "2caad8991943e6a6f3bf43a8cc744c0f7fdaf9e70d57f8103a8ac4df48875df5"
+    },
+    {
+      "path": "DramaStudio/dist/film-shot-upscale-ui.js",
+      "bytes": 6778,
+      "sha256": "792ed70ef32cf9abbc27e888a9dc8a0f19e6486e58195f254bb1fb05f56014a9"
+    },
+    {
+      "path": "DramaStudio/dist/film-transition-ui.js",
+      "bytes": 4825,
+      "sha256": "c2b7bd7817467ab679948e03e806f3a73c5aed4886c1afe522ea5dbf6fb164f2"
+    },
+    {
+      "path": "DramaStudio/dist/film-volume-ui.js",
+      "bytes": 2004,
+      "sha256": "2b304e3609f9f25435ee160940977991d2886bf0d863683b2b72bee0a18716da"
+    },
+    {
+      "path": "DramaStudio/dist/first-frame-batch-ui.js",
+      "bytes": 4674,
+      "sha256": "0f0e9493a0a5c1a33ea2ca0a58f5b5571409db522a46e5f218c03d386e16fc6b"
+    },
+    {
+      "path": "DramaStudio/dist/first-frame-gallery-ui.js",
+      "bytes": 17122,
+      "sha256": "b749d9b3604e5c1f5eabb15f86a0e4d9792e8f359fd674ac0cee4ad587255609"
+    },
+    {
+      "path": "DramaStudio/dist/front-image-ui.js",
+      "bytes": 6103,
+      "sha256": "652735df89ad08c3fb1b5012d1470b471e9f80fdf1291be5a12dcb06e1757055"
+    },
+    {
+      "path": "DramaStudio/dist/gallery-image-picker.js",
+      "bytes": 7649,
+      "sha256": "0725b31b09831689ae573104483b75db2dd03cf01ccf25f30aba6a6702c14956"
+    },
+    {
+      "path": "DramaStudio/dist/global-generation-status.js",
+      "bytes": 11095,
+      "sha256": "9bbca00fa9a99e8cb91f8a411ce0d072841d2165043183de29356b20327d1018"
+    },
+    {
+      "path": "DramaStudio/dist/gpu-history.js",
+      "bytes": 337,
+      "sha256": "d3fb170296db09c5ead1ce0903159d27bf0c306bc82cf51ec79ee923b9dc7c47"
+    },
+    {
+      "path": "DramaStudio/dist/h3-tools.html",
+      "bytes": 183,
+      "sha256": "5cbdf5579349ac70253d9d12951ba91784b4b6e66c4aa3409bf6a62f1cb72be8"
+    },
+    {
+      "path": "DramaStudio/dist/h3-tools.js",
+      "bytes": 19230,
+      "sha256": "4ead2b9246a81f0839b598b94c5899386921f48a1d0f23d77062d58d56146824"
+    },
+    {
+      "path": "DramaStudio/dist/hierarchy-video-nav.js",
+      "bytes": 3144,
+      "sha256": "1967502948fd583e259bbe66b87c18175409334970167c4a7cce2bfe5b24a02c"
+    },
+    {
+      "path": "DramaStudio/dist/icon-512.png",
+      "bytes": 5290,
+      "sha256": "7084cdbc46a056212766d4655c3079f5b612309794003b29aad89a09201c0b5c"
+    },
+    {
+      "path": "DramaStudio/dist/image-file-drop.js",
+      "bytes": 1365,
+      "sha256": "3145eb07c3490a0f5b4352b0aca01194be1f8bdf0b9204d1634e4d4a8a94c015"
+    },
+    {
+      "path": "DramaStudio/dist/image-negative-spec.js",
+      "bytes": 806,
+      "sha256": "f10b974087259a54e74d07d651029cc2275d20babd7e3df385b480721213b79c"
+    },
+    {
+      "path": "DramaStudio/dist/image-negative-status-ui.js",
+      "bytes": 3229,
+      "sha256": "aadbd956ced324e74893875623d74d9232939f0f96e876f8731888cd41d99e10"
+    },
+    {
+      "path": "DramaStudio/dist/image-resolution-labels.js",
+      "bytes": 1508,
+      "sha256": "5696c8d758a36927575499cfacf1a46f290e84ae4e2c65a4850246f1f0936c25"
+    },
+    {
+      "path": "DramaStudio/dist/image-size-options.js",
+      "bytes": 3260,
+      "sha256": "f43db6e5e45b2c5ed7db9d1ace7e7dd793d6080fef2f8c5e596d55c722050123"
+    },
+    {
+      "path": "DramaStudio/dist/image-upscale-actions.js",
+      "bytes": 11764,
+      "sha256": "f97b1adf17255b5e48c8e9c4025109411fec901db3cc5d5e45a1a08dbb5b06fe"
+    },
+    {
+      "path": "DramaStudio/dist/import-safety.js",
+      "bytes": 7498,
+      "sha256": "d0ecc573bafbfe5be8e87046eae0955a2f3d0ea19dc09f3be7dd60ef1b3a59c3"
+    },
+    {
+      "path": "DramaStudio/dist/index.html",
+      "bytes": 9363,
+      "sha256": "8f840ec15e939a3ff0afefe2cf0a3740c1f1e9610bb4713e655798667b9b1964"
+    },
+    {
+      "path": "DramaStudio/dist/lightcc-demand-ui.js",
+      "bytes": 14859,
+      "sha256": "f0b09a8e08107b20d7a7abe49d837ad8f265d8dfc2c994a28f9609f3838027ec"
+    },
+    {
+      "path": "DramaStudio/dist/lightcc-entry.js",
+      "bytes": 429,
+      "sha256": "a83129ec059333423a0cf9b00a33c03d5ed57c145c874fd20eafb8640749f57a"
+    },
+    {
+      "path": "DramaStudio/dist/lightcc-rental.js",
+      "bytes": 9634,
+      "sha256": "7015c8244694606adb3e788b453cd4cfd0390d1cf7100f2e9d24727656493ce3"
+    },
+    {
+      "path": "DramaStudio/dist/lightcc.html",
+      "bytes": 14035,
+      "sha256": "66a7280f2db7d33428b9976ee16eacc7e0886051fba74510b11e44fec6ceb29b"
+    },
+    {
+      "path": "DramaStudio/dist/lightcc.js",
+      "bytes": 8233,
+      "sha256": "949a92d2a9c9650854a941f38d21dfb821b0decaf1a6b1f6ef2e4c2117104aea"
+    },
+    {
+      "path": "DramaStudio/dist/modular-json-ui.js",
+      "bytes": 5007,
+      "sha256": "02a0cd073b72507c1338b73c90ac35ef367d0ef6da94598f33843ce4b961eb4a"
+    },
+    {
+      "path": "DramaStudio/dist/portrait-candidates.js",
+      "bytes": 8779,
+      "sha256": "aa800f6af56d577d4f195bf5a351a398273cce8b114a6e0706329a20016fe8a8"
+    },
+    {
+      "path": "DramaStudio/dist/previous-tail-reference.js",
+      "bytes": 4239,
+      "sha256": "b1552452757dedfa250a5ee806f33cb4ddfd0bb0124139f6a2144e85b1c93363"
+    },
+    {
+      "path": "DramaStudio/dist/project-actions.js",
+      "bytes": 9148,
+      "sha256": "c2c590661dd40fe85c4fffe1adced17a0818075741e08d93235148bf26dc8e1e"
+    },
+    {
+      "path": "DramaStudio/dist/project-json.js",
+      "bytes": 5598,
+      "sha256": "6249f4b115cf42e2a155b4860d6d4ada2235e7efa6fe8e1386dd32be47a85d18"
+    },
+    {
+      "path": "DramaStudio/dist/project-library-ui.js",
+      "bytes": 3834,
+      "sha256": "26b21d61e6220e4921e4d5bb29bf9373a54570164afa8eed4f1f2dfeda614fae"
+    },
+    {
+      "path": "DramaStudio/dist/project-view-state.js",
+      "bytes": 2724,
+      "sha256": "5dc98b751d4fc77d70b3565e3d4a8fbe3f802908f6049fca1901bcd72a5601d8"
+    },
+    {
+      "path": "DramaStudio/dist/quick-tools-entry.js",
+      "bytes": 517,
+      "sha256": "8f1858de5220a9e77a9329dba502e5307612ac7f34ad65b32e591500201d38b2"
+    },
+    {
+      "path": "DramaStudio/dist/quick-tools.js",
+      "bytes": 64685,
+      "sha256": "fdc6815028244c693cb7f2c7b5742ecf0942f0b52570694da0f372275093f33a"
+    },
+    {
+      "path": "DramaStudio/dist/reference-sync.js",
+      "bytes": 1575,
+      "sha256": "991f2b937d85ebcabf363603aef06d4aad23f8e3b9fcc3bb6dd151aa032148a6"
+    },
+    {
+      "path": "DramaStudio/dist/scene-angle-ui.js",
+      "bytes": 2856,
+      "sha256": "4de773f74b7f78afb96e273a4a243059e3c158c8761f0c8708ed6cfc5d61a134"
+    },
+    {
+      "path": "DramaStudio/dist/scene-clean-layout.js",
+      "bytes": 9522,
+      "sha256": "cb604574a75f52571600ddc906e95793b2316c3f6d4b4ee488467def658675d6"
+    },
+    {
+      "path": "DramaStudio/dist/scene-generation-controls.js",
+      "bytes": 5835,
+      "sha256": "9838ba37bbab73953bcac94eb4527fed1f2e55ce907f8a7b6236d04030f7cf5e"
+    },
+    {
+      "path": "DramaStudio/dist/scene-main-asset.js",
+      "bytes": 7152,
+      "sha256": "137306bf44f00d9dc5d0604e8b68420bb87079f5d3d7c0671283af2c66593c25"
+    },
+    {
+      "path": "DramaStudio/dist/scene-reference-ui.js",
+      "bytes": 6162,
+      "sha256": "6114d44b85b802985774bc4b4ed4112c18d4b72e0e065d4c1e58cb458c06ae95"
+    },
+    {
+      "path": "DramaStudio/dist/scene-retouch-ui.js",
+      "bytes": 2495,
+      "sha256": "7678a53bdb1fdf8ef5d626f4766d77fbe74c4b451f863f61f536d42a6079cf80"
+    },
+    {
+      "path": "DramaStudio/dist/scene-schema.js",
+      "bytes": 2908,
+      "sha256": "802d84fed721803a7ba11f1601fc16fb2e63a62c722cf122fe1ac035e03869b6"
+    },
+    {
+      "path": "DramaStudio/dist/scene-state-references.js",
+      "bytes": 3074,
+      "sha256": "15b92acae6d9c2804cb4b610d840ba5a243571e0b6b4fab63656bb93af33faf1"
+    },
+    {
+      "path": "DramaStudio/dist/scene-studio.js",
+      "bytes": 29295,
+      "sha256": "959632f0721d2ccfcc94c7380f7edb74938dc0c7b4abd363ee98fc40b5030449"
+    },
+    {
+      "path": "DramaStudio/dist/scene-upscale-batch-ui.js",
+      "bytes": 7649,
+      "sha256": "5004708f77a10bc1283f996e01ceb4297d8fee385600e664bc405427c3411c0b"
+    },
+    {
+      "path": "DramaStudio/dist/sheet-output-size.js",
+      "bytes": 1038,
+      "sha256": "dd4ceb2bd05632be554bb9ab24dc5034eb3dc8f1451fc9a2abb2f529ae290275"
+    },
+    {
+      "path": "DramaStudio/dist/shot-aspect-policy.js",
+      "bytes": 4171,
+      "sha256": "3e316885c5e6fde53bc0de43778e46f25d8557cccce8bd371f2a3377aaa70b4a"
+    },
+    {
+      "path": "DramaStudio/dist/shot-audio-studio.js",
+      "bytes": 6963,
+      "sha256": "6cbbf066f659b903b37ee94a70305f8402c8cb8993fb987d2182ac5bc48f41d3"
+    },
+    {
+      "path": "DramaStudio/dist/shot-audio-timing-ui.js",
+      "bytes": 4097,
+      "sha256": "95fc066f0bd9ff6e4f4b201c742e632af47e2d598ccb259078534830373855f2"
+    },
+    {
+      "path": "DramaStudio/dist/shot-connections-ui.js",
+      "bytes": 11513,
+      "sha256": "6ba555ae4642b4ce881ca65993e09990bfb0aeba401483e8898faa9d56284a96"
+    },
+    {
+      "path": "DramaStudio/dist/shot-continuity-ui.js",
+      "bytes": 2781,
+      "sha256": "e40a26f53c51c4ad4ca00d265c066b3788b2d8d9c8caad8cae524e0b599fa751"
+    },
+    {
+      "path": "DramaStudio/dist/shot-frame-picker.js",
+      "bytes": 14109,
+      "sha256": "4a9d145823fdcda0e941e51fb003787a5d6bf8172819a4ad759213618b1d4c45"
+    },
+    {
+      "path": "DramaStudio/dist/shot-generation-layout.js",
+      "bytes": 2077,
+      "sha256": "93120d9fbb9e8f2c2d20e64dde1c0c06daa8ff236aca723cf6d077a78e38c620"
+    },
+    {
+      "path": "DramaStudio/dist/shot-hierarchy-schema.js",
+      "bytes": 8524,
+      "sha256": "bcb1ac1cd8e2ecda402b2a4c5e67d89ea426b5460ff3295274f10dc6bc8a8042"
+    },
+    {
+      "path": "DramaStudio/dist/shot-hierarchy-ui.js",
+      "bytes": 10832,
+      "sha256": "30eb78dc92679e1df7df17cf1583001ead19b8843351cdbfaaa89742bc6ad6b0"
+    },
+    {
+      "path": "DramaStudio/dist/shot-method-spec.js",
+      "bytes": 6472,
+      "sha256": "f12c9fbb6c1cae946a360bb7ea2d761834fc2690625b798c6f5b660a038d1555"
+    },
+    {
+      "path": "DramaStudio/dist/shot-methods-ui.js",
+      "bytes": 32914,
+      "sha256": "2243a21b3b3652798ef8ff48b201aa5642095b41a31468a10c7e409a9ad2780d"
+    },
+    {
+      "path": "DramaStudio/dist/shot-preview-top.js",
+      "bytes": 1257,
+      "sha256": "dc5d264aaef996168aa3c9d1ac765587288cb58fe8eede20185b71e762d8f651"
+    },
+    {
+      "path": "DramaStudio/dist/shot-reference-options.js",
+      "bytes": 12312,
+      "sha256": "50f557daa7588b7c91364d36272647f4dfe06e711f6230d9dcf83bab788076fa"
+    },
+    {
+      "path": "DramaStudio/dist/shot-schema.js",
+      "bytes": 5254,
+      "sha256": "b85859c7e2352ecefb648254ce44e7102336a0c94728a69f593673a311adb34c"
+    },
+    {
+      "path": "DramaStudio/dist/shot-studio.js",
+      "bytes": 13824,
+      "sha256": "900673a47906ff5268a3854417bd92f8b454d38a648f5582f0880a220952994b"
+    },
+    {
+      "path": "DramaStudio/dist/shot-video-delete-cards.js",
+      "bytes": 1786,
+      "sha256": "10ed98b716feaee86bdfe0fcac4041fd56a6953a1fceee4ac93cc5ce8508c79b"
+    },
+    {
+      "path": "DramaStudio/dist/shot-video-ui.js",
+      "bytes": 12109,
+      "sha256": "9d1bb9d530cf0ec47878f1616a5bb7eb6a17e366adff600f2f33a7d2a10f23d7"
+    },
+    {
+      "path": "DramaStudio/dist/single-angle-ui.js",
+      "bytes": 10203,
+      "sha256": "7e80a4ac66c33af978cb6984838f6e58b4eb926b15d4612e247beac45c897c9b"
+    },
+    {
+      "path": "DramaStudio/dist/stable-shot-player.js",
+      "bytes": 1614,
+      "sha256": "3012ed765692d00ce98f6f7fd81e5989703d0e201230ce8ccbced35b1758a9d9"
+    },
+    {
+      "path": "DramaStudio/dist/status-memory.js",
+      "bytes": 5165,
+      "sha256": "289d250178af2caa86f5cb32e4dae3d82701fd4192db08d902c720642b85688f"
+    },
+    {
+      "path": "DramaStudio/dist/studio-mobile.css",
+      "bytes": 4344,
+      "sha256": "03a9f333a4d3cb454be04e41bc0c9ba3d8d249ab8d654861cbb65ae4dc780271"
+    },
+    {
+      "path": "DramaStudio/dist/style.css",
+      "bytes": 13269,
+      "sha256": "2fc71a961cb30d975e6f73b50fb51a82173e4e907c4a6a6aa87306880542b78c"
+    },
+    {
+      "path": "DramaStudio/dist/tool-size-spec.js",
+      "bytes": 1808,
+      "sha256": "1282b3a5144c9a3f06ee4a045dea286991d44a9996114f596a48aff7ead4422a"
+    },
+    {
+      "path": "DramaStudio/dist/tool-source-sizes.js",
+      "bytes": 2329,
+      "sha256": "321f4997344da7821b71cb3489f81932186735f4c65e33b3c6e36b9bf5965df3"
+    },
+    {
+      "path": "DramaStudio/dist/tools.html",
+      "bytes": 19146,
+      "sha256": "e6069f14bc612ec8492425d066892e7a9429c7137a6c77bb8ec6937612e820bd"
+    },
+    {
+      "path": "DramaStudio/dist/video-batch-ui.js",
+      "bytes": 22192,
+      "sha256": "b0a66a8a4e24e3ea33bbeccf95b7d8a7e19ddd6bc8475e90854ffde9ed906d32"
+    },
+    {
+      "path": "DramaStudio/dist/video-gpu-switch.js",
+      "bytes": 20343,
+      "sha256": "2ffc68090e5ca6653b70e02421990e28fa9ca58969d466325fadb468c001e39e"
+    },
+    {
+      "path": "DramaStudio/dist/video-timing-ui.js",
+      "bytes": 5688,
+      "sha256": "292f7b39cf9488ad91d2c748ebade79f98ba28350d465a568914667e6c3432f6"
+    },
+    {
+      "path": "DramaStudio/dist/workflow-direct-open-ui.js",
+      "bytes": 3096,
+      "sha256": "c4175cf5182185068594040cb4fc69b81648ca729f48b77ed538c49eedce71db"
+    },
+    {
+      "path": "DramaStudio/dist/workflow-download.js",
+      "bytes": 1116,
+      "sha256": "c7a692ed8e5e3bc8a852e2a3b30dc9d5758defcb824e58d5dd1c1cc30a9e4c43"
+    },
+    {
+      "path": "DramaStudio/dist/workflow-open-ui.js",
+      "bytes": 1062,
+      "sha256": "ca0bd49579b6be654e1430400309e8de7acfc404939fab12b380cb8d603f9bdc"
+    },
+    {
+      "path": "DramaStudio/execution-device.cjs",
+      "bytes": 810,
+      "sha256": "c72ec3d05de66f86bb6d6aebbd6c3d9aa8d24da3b6ba0d04df0b502e77c2f680"
+    },
+    {
+      "path": "DramaStudio/film-export-api.cjs",
+      "bytes": 8998,
+      "sha256": "c60b19228b683875954b745106c9cd1dc6d9cc81dcddba49cc6ad3b2cd2710ba"
+    },
+    {
+      "path": "DramaStudio/film-subtitles.cjs",
+      "bytes": 2510,
+      "sha256": "a80a3e0ae30e1c8a696f1d5207ad9381f3f8a86cdadc94e117464e737b534747"
+    },
+    {
+      "path": "DramaStudio/film-transitions.cjs",
+      "bytes": 4413,
+      "sha256": "1aabfda44432521791c178a085c2bdda0557bd5e16e8a48414ff356c16dae845"
+    },
+    {
+      "path": "DramaStudio/first-frame-batch-api.cjs",
+      "bytes": 5253,
+      "sha256": "eb4b4b9957ffff366191278491f8c9fb544341ccda6b96d24b11426afa073984"
+    },
+    {
+      "path": "DramaStudio/front-image-api.cjs",
+      "bytes": 20912,
+      "sha256": "c63b515261a25e3ba9da78292511fc4c2ad491965ceea66323ceaaf2c286d0c7"
+    },
+    {
+      "path": "DramaStudio/generated-character-sheet.cjs",
+      "bytes": 895,
+      "sha256": "3412a236206779a089b24328fd87423cf6f5c0dc87592378fbbae4b0775b1855"
+    },
+    {
+      "path": "DramaStudio/generation-timing.cjs",
+      "bytes": 5596,
+      "sha256": "bd91d360d869cfdea7585a9453caafcbeaa99c4f9563c1a36eb672c2a3c72318"
+    },
+    {
+      "path": "DramaStudio/h3-tools-api.cjs",
+      "bytes": 16740,
+      "sha256": "3cb6b53cddc52a7e77b728c8e9bfac868d81d2e6e68d0b905c384c024a8564b3"
+    },
+    {
+      "path": "DramaStudio/image-negative-policy.cjs",
+      "bytes": 3506,
+      "sha256": "c0bf61799b2e41794403e7ff2e43fede1e670b5041e511ccc67be278bed6aab0"
+    },
+    {
+      "path": "DramaStudio/lightcc-demand.cjs",
+      "bytes": 13734,
+      "sha256": "2943822de9b3863a0b8e40dba6dbeb9fb60f9eb5cffd47f445dca6d3e4226824"
+    },
+    {
+      "path": "DramaStudio/lightcc-gateway.cjs",
+      "bytes": 3048,
+      "sha256": "4a82f6de1fbb1388bb8d80282ffb749b25a3aafb93bbb5014444a6211f52213f"
+    },
+    {
+      "path": "DramaStudio/lightcc-manager.cjs",
+      "bytes": 25233,
+      "sha256": "9d5ce9c72ffa61381cf03a4b87ae493e616927ad582cc50611754a2ffe24ee5d"
+    },
+    {
+      "path": "DramaStudio/local-audio-engine.cjs",
+      "bytes": 6653,
+      "sha256": "cc585372df9793b50da338a9b102e368d51a99387c8af55e937580d46e1b5e93"
+    },
+    {
+      "path": "DramaStudio/memory-api.cjs",
+      "bytes": 1960,
+      "sha256": "260963628e7bda498eccc9ac5516014b664c25b9250894aa128ca790723f280b"
+    },
+    {
+      "path": "DramaStudio/mv-cloud-guard.cjs",
+      "bytes": 968,
+      "sha256": "edf6182994b2076565edc685cc7388bc062c8e4facb43fc77ab6b57835781e22"
+    },
+    {
+      "path": "DramaStudio/portrait-batch-output.cjs",
+      "bytes": 1457,
+      "sha256": "0ed6ae122770af8fa7caf2f7debfc333c4c8d23afc98966c85fb13fe05555536"
+    },
+    {
+      "path": "DramaStudio/previous-frame-adoption.cjs",
+      "bytes": 2866,
+      "sha256": "eace20aaa6ff2763587767d8a9e4ce3b6ad65d98407206f32b210bc1785ca054"
+    },
+    {
+      "path": "DramaStudio/project-store.cjs",
+      "bytes": 6587,
+      "sha256": "bca688f4d36e6b1ad1a19f30e77622e54cd2c1d5cebf8a09e447ef4a8307251e"
+    },
+    {
+      "path": "DramaStudio/quick-tools-api.cjs",
+      "bytes": 33040,
+      "sha256": "13ac96de919d896cf58b3ae71680903e4a178d7dc27239955acab69cb1aed60e"
+    },
+    {
+      "path": "DramaStudio/scene-angle-workflow.cjs",
+      "bytes": 2024,
+      "sha256": "0189fd7fc78dd62b9fa2d1c02ceffef9349354535b1e91b0159e1ccd3df162e7"
+    },
+    {
+      "path": "DramaStudio/scene-background-lock.cjs",
+      "bytes": 2268,
+      "sha256": "6ed5ca22990f52252e2da30b77391a266013267338a6408e58029a48705b2752"
+    },
+    {
+      "path": "DramaStudio/scene-prompt-policy.cjs",
+      "bytes": 2675,
+      "sha256": "27ed642b3d67f461d9baeb3095acf6730fbd036fbfe77b60ae9246fb28c8390c"
+    },
+    {
+      "path": "DramaStudio/scene-upscale-apply.cjs",
+      "bytes": 2254,
+      "sha256": "516723b59e6256adf23119957762670ffaa7f109006761d56e76d97888593b1d"
+    },
+    {
+      "path": "DramaStudio/server.cjs",
+      "bytes": 6374,
+      "sha256": "44bfc10bb1897bd6cda03daa3345dc72b2e58b7e4235a39be7e5890453726352"
+    },
+    {
+      "path": "DramaStudio/shot-frame-api.cjs",
+      "bytes": 10603,
+      "sha256": "fbf148dec437908cb94787ce4df66b14fc7f5bd356b590fad8ab5179e2d012fa"
+    },
+    {
+      "path": "DramaStudio/shot-upscale-api.cjs",
+      "bytes": 5420,
+      "sha256": "71e2e7d9c07da42cf52bc659f9c3a1d72503283415e108697e60b725daa278aa"
+    },
+    {
+      "path": "DramaStudio/start.ps1",
+      "bytes": 779,
+      "sha256": "ff4ea4fbef008e591cbe716c19b4d6ccec34847e424d415a34c63afe643d794b"
+    },
+    {
+      "path": "DramaStudio/sync-character-assets.cjs",
+      "bytes": 1584,
+      "sha256": "2f65c28823db824d06540987541ee8fac710d3c19035303429870798d966c4f5"
+    },
+    {
+      "path": "DramaStudio/tool-progress.cjs",
+      "bytes": 3008,
+      "sha256": "fcfa1724f67a8fe735977870c129f8df86c42f0fe4eb76a6d20e716a77f5c91d"
+    },
+    {
+      "path": "DramaStudio/tool-result-names.cjs",
+      "bytes": 504,
+      "sha256": "9f6fed1a1fcc00ab0536100116213a77a8826b744d1b8be8e76c56ab89f20d6a"
+    },
+    {
+      "path": "DramaStudio/tool-video-upscale.cjs",
+      "bytes": 11709,
+      "sha256": "333ddb9d024e8adc89761ba0e280c8e658da63e55abcb6e09531ae9cfe41a18c"
+    },
+    {
+      "path": "DramaStudio/video-api.cjs",
+      "bytes": 22468,
+      "sha256": "23dd758fa4ac741b4b58535650d3be3579ac6e6a6a9138bd8f3d8a8d89eee75f"
+    },
+    {
+      "path": "DramaStudio/video-batch-api.cjs",
+      "bytes": 14803,
+      "sha256": "59906423d6b941a13c4a6f78393a68e2171bfd7ba142344f7d3d78d88dcb5d0d"
+    },
+    {
+      "path": "DramaStudio/video-cloud-connect.cjs",
+      "bytes": 1367,
+      "sha256": "4d12227e750a3642f43f3d9ab35f0b85f380697457ce24588efdd2d463be07d0"
+    },
+    {
+      "path": "DramaStudio/video-frame-api.cjs",
+      "bytes": 2450,
+      "sha256": "dc2a9188b3827eaea3ba6d70c5327845ee8c6c3a447371ec0bd1fe56ce9089f4"
+    },
+    {
+      "path": "DramaStudio/video-progress.cjs",
+      "bytes": 3051,
+      "sha256": "7e319c0d7f47f36f39965460a6755594e81f550fae939869fc7a384ff9c82db9"
+    },
+    {
+      "path": "DramaStudio/workflow-open-api.cjs",
+      "bytes": 3871,
+      "sha256": "a6551b42f8febc7094704b90108fec3509bb2368f522f3a7abcc3781c69befd3"
+    },
+    {
+      "path": "DramaStudio/workflows/qwen-multiview.json",
+      "bytes": 2764,
+      "sha256": "60cd4fb6ef2efaaf6cef25f4a5ec78a3cf9560c19ce5fdea6cb8042375f9eca8"
+    },
+    {
+      "path": "DramaStudio/workflows/z-image-front.json",
+      "bytes": 2153,
+      "sha256": "260ea139bbfcc21c217ebaed4d1747d9068eea32a7a03604fa6b2f7d16bb9711"
+    },
+    {
+      "path": "DramaStudio/使用说明.txt",
+      "bytes": 593,
+      "sha256": "b4572ae54c6f23c82a966baadddff314fbe386322ea3104784b0a0265c60632f"
+    },
+    {
+      "path": "DramaStudio/启动工作台.cmd",
+      "bytes": 108,
+      "sha256": "3597b3d97f63ba97b7b8c344561bde2d5744bc7624b31d07f3356d4d445a3cb1"
+    },
+    {
+      "path": "examples/asset-manifest.json",
+      "bytes": 195,
+      "sha256": "de5ad9c465f3f1d7f27a92a9766c8f460ec3239479b66f77acdb199e98e8a445"
+    },
+    {
+      "path": "examples/drama-project.example.json",
+      "bytes": 312,
+      "sha256": "d29dc542ca731320f9483b41725ef00d767fcfce649c93cf00304453cd08f88c"
+    },
+    {
+      "path": "examples/mv-project.example.json",
+      "bytes": 236,
+      "sha256": "d5103e9568b9d83bac880e8efb579b67ed76b6f539bb789ed16a08b7f10941f9"
+    },
+    {
+      "path": "GptWork/ComfyUI-Unify-20261030/remove-enhancer/strip-enhancer.cjs",
+      "bytes": 625,
+      "sha256": "472be85b159e55ed08f08c069d8fe21703edefbf97bc73deae6211c6723c74f7"
+    },
+    {
+      "path": "GptWork/DramaStudio-qwen21/qwen21-frame-workflow.cjs",
+      "bytes": 5434,
+      "sha256": "16af0343c907d9125dfb54c225b2a9ea6067e850eb7ff4921857687ed9b9510f"
+    },
+    {
+      "path": "GptWork/frame-upscale-fix/apply-frame.cjs",
+      "bytes": 2192,
+      "sha256": "cd7f3eab31f1a01791de14246e591f8ec1bc209e2ceed5d917c0dcbe755201bf"
+    },
+    {
+      "path": "GptWork/h3-tool-projects-20261031/h3-projects.cjs",
+      "bytes": 1403,
+      "sha256": "2a4d1e5ffd9ef924f8d49185059f420d760f4700def71aae9c65f80de7b20619"
+    },
+    {
+      "path": "GptWork/lightcc-manager-20261031/prepare-reference.py",
+      "bytes": 548,
+      "sha256": "74074cfabb00a39a17009a08810673f5b0d204e03a10f9d018e68f3fb9d97300"
+    },
+    {
+      "path": "GptWork/lightcc-manager-20261031/protect-secret.ps1",
+      "bytes": 747,
+      "sha256": "a2cdb2ad63ae0230a2c2451021868cfe23e665def1e1768b2bccecd92b16ee04"
+    },
+    {
+      "path": "GptWork/lightcc-switch-20261031/switch-executor.cjs",
+      "bytes": 301,
+      "sha256": "4140ea471e04cf2df740f1c0b128ecda45f26ba109b5acac48d7fe2fd01e76d8"
+    },
+    {
+      "path": "GptWork/platform-cloud-20261031/连接云端.ps1",
+      "bytes": 465,
+      "sha256": "d65457f29b7cce1aae09a86fe313e0bd1d8166eea0f88e85f1ea2be573832dbc"
+    },
+    {
+      "path": "GptWork/tool-projects-20261030/tool-projects.cjs",
+      "bytes": 5361,
+      "sha256": "0ed7d0f53f5455f0aa3a6c6e7d3fb04d9f1579a8f45597d9dde905dd2a24bacc"
+    },
+    {
+      "path": "MVStudio/assets/favicon-v2.ico",
+      "bytes": 104088,
+      "sha256": "0a9cf2485778a44be65e797dd1d237ca9ca6d57c02d9a25645f52e8ffafffb14"
+    },
+    {
+      "path": "MVStudio/assets/icon-180.png",
+      "bytes": 32524,
+      "sha256": "ec2337180a6ab08cf3a1e55a3114a150cb0a09e2fcd3ad16d26db6c8234fa35c"
+    },
+    {
+      "path": "MVStudio/assets/icon-192.png",
+      "bytes": 36408,
+      "sha256": "1ef2540e55d714003b8d1850a84c5462cded3409cd140adb28e503e70e703f72"
+    },
+    {
+      "path": "MVStudio/assets/icon-32.png",
+      "bytes": 1948,
+      "sha256": "deea8b286b84b6dfb4d7478360545406b7b3980f671d5b81304c04bd77882f38"
+    },
+    {
+      "path": "MVStudio/assets/icon-512.png",
+      "bytes": 239959,
+      "sha256": "38cfab89e16b7dd153fa755f3c8d6bb014820ed48df5bc81c9b1a0c8c3b45c45"
+    },
+    {
+      "path": "MVStudio/assets/manifest.webmanifest",
+      "bytes": 365,
+      "sha256": "d4ec14b8dd31edab6530981864e567355f723b0ea5c43aaf8baa7a66a740015e"
+    },
+    {
+      "path": "MVStudio/assets/music-icon-v1.png",
+      "bytes": 1578210,
+      "sha256": "c7cd6630f6fca8de1c008596913aba3b1af050a9d1ee29c28e6f43965ccb0ca1"
+    },
+    {
+      "path": "MVStudio/atomic_io.py",
+      "bytes": 745,
+      "sha256": "dfe3763ec4b4aadd8998547c98d4cc595b06aec312b304bfe0ec41cbe770f4b4"
+    },
+    {
+      "path": "MVStudio/auto_timeline.py",
+      "bytes": 7182,
+      "sha256": "157ecf5f5f5daa15c510e12559bb12e45c6419f63c0a897e86682d4765a2d059"
+    },
+    {
+      "path": "MVStudio/batch_engine.py",
+      "bytes": 9526,
+      "sha256": "78a4826e4b260a24b217428b490e8a55fd229e7bce4e2b767b58cc478d862b2e"
+    },
+    {
+      "path": "MVStudio/cloud-picker.js",
+      "bytes": 13088,
+      "sha256": "2085ce5647dee48ee93145d8149febad853e3717b048290f15d3c469b68859ff"
+    },
+    {
+      "path": "MVStudio/cloud.js",
+      "bytes": 3997,
+      "sha256": "df045489560c8b83c5ffbb9283af94e2a7d77f3cd1517a45eac054e06d34411e"
+    },
+    {
+      "path": "MVStudio/composition.js",
+      "bytes": 12939,
+      "sha256": "c0a2ff0d52ac000d10bc875de54dcd7dbe8b17891eb0de1c7a1ca0235c9fa8fb"
+    },
+    {
+      "path": "MVStudio/composition.py",
+      "bytes": 7086,
+      "sha256": "f966251d6f8a904e4a7ed4d228fb6e7193546b030f507f3de9d4c726b69125bb"
+    },
+    {
+      "path": "MVStudio/connections.js",
+      "bytes": 6739,
+      "sha256": "ba5acaf4c877f59abcd2d5a2b680fa417c234abcb540777e4d2a798a167daa7d"
+    },
+    {
+      "path": "MVStudio/connections.py",
+      "bytes": 1131,
+      "sha256": "1bdf7892f8ada164681b0f9825d47c7f433d643069afef6b3ecc1877973c2532"
+    },
+    {
+      "path": "MVStudio/frame-batch.js",
+      "bytes": 16820,
+      "sha256": "38dac1a0fee19c3e90ffc8d6ee0fabf044cffdf94710e437151bf3d6eb8b6864"
+    },
+    {
+      "path": "MVStudio/frame_engine.py",
+      "bytes": 10730,
+      "sha256": "2d2f77cb11500a079ff73d0f136415dd0c13b50636ce9222865192223d5a047b"
+    },
+    {
+      "path": "MVStudio/generation_backend.py",
+      "bytes": 8328,
+      "sha256": "911282c802994cfb91bc82cb72b9550283deb848b80bd5ed70394ccae32d48ac"
+    },
+    {
+      "path": "MVStudio/index.html",
+      "bytes": 14371,
+      "sha256": "faf1365c8c20789befd362d0ba3d6d389f8932aff5f53c824e90f8fe3e2b0b91"
+    },
+    {
+      "path": "MVStudio/lightcc-manager.js",
+      "bytes": 8138,
+      "sha256": "3cbbcea997dd7059e01815a321ee8bf4c602758a5130ad197017fedd187cabef"
+    },
+    {
+      "path": "MVStudio/lightcc-status.js",
+      "bytes": 15059,
+      "sha256": "f174918327d048a76744542226a0f85c6ae3fd472af4c480af9288ba19fbcdc3"
+    },
+    {
+      "path": "MVStudio/lightcc.html",
+      "bytes": 14166,
+      "sha256": "478e2de7bc0c0729678875f887cbf6937bcafac6276e75c3b95d30679723a54d"
+    },
+    {
+      "path": "MVStudio/microphone_alignment.py",
+      "bytes": 2058,
+      "sha256": "8db21d82cf095fb69198e1e4c2d83f920d416bd23ee8e5ecf4305bc0813ea3e7"
+    },
+    {
+      "path": "MVStudio/mv_suite.py",
+      "bytes": 7148,
+      "sha256": "252a7c6560f67a5d52087dbcfd8914a1707954f9da4926fa60e153c475c663b6"
+    },
+    {
+      "path": "MVStudio/planning.js",
+      "bytes": 17209,
+      "sha256": "08bed68a1408f28d44f0d36bc1207fad88710e6d90c749403846f632cfcfc456"
+    },
+    {
+      "path": "MVStudio/server.py",
+      "bytes": 25588,
+      "sha256": "a2a4a10814cde1b24a6657f1d32d4496bc2bafe685fc9750f9a7db23f271543d"
+    },
+    {
+      "path": "MVStudio/sheets.js",
+      "bytes": 9781,
+      "sha256": "9c29a3ba4ba01363244d6858e511b746b9899595f2b13f56fb5ffac30603e2b6"
+    },
+    {
+      "path": "MVStudio/shot-tabs.js",
+      "bytes": 8435,
+      "sha256": "26c0efa6a56ca77aef8235d05cdecb084a38fe75d5849a46f5967ed36b64632f"
+    },
+    {
+      "path": "MVStudio/shot-video.js",
+      "bytes": 22397,
+      "sha256": "a6212f6e72e1843bbc7b99ab1dc8ca4da8a331e5d57f74c5d88816b2b50253ac"
+    },
+    {
+      "path": "MVStudio/song_engine.py",
+      "bytes": 8153,
+      "sha256": "42c490a8a6a24be9ba4d4d5e94e2d299a0287fd2647f69f4ff060f0d05026d1b"
+    },
+    {
+      "path": "MVStudio/start-mv.ps1",
+      "bytes": 1852,
+      "sha256": "116b8e26e5dda10c988e719a48daa4392ea1ce648cba9ca9fdf83e7a48a6b866"
+    },
+    {
+      "path": "MVStudio/task_control.py",
+      "bytes": 1939,
+      "sha256": "be3463e9633fdbf97bc2bfe2ad2c91ebdde8576058bbf46c6d09372468667def"
+    },
+    {
+      "path": "MVStudio/timeline.js",
+      "bytes": 16863,
+      "sha256": "1001017f07ea9a1a835a15c3bafbc558b222806e3508d9d54cae7fa8faf72f16"
+    },
+    {
+      "path": "MVStudio/timeline.py",
+      "bytes": 7857,
+      "sha256": "0a09fb2ae5b0d7e92c55990e88d5365de6d71e7d7a9b184fb318cee39372fb72"
+    },
+    {
+      "path": "MVStudio/video-monitor.cjs",
+      "bytes": 4208,
+      "sha256": "d46e4be0c39efff1a6d03d3f9b44e466540f3492aa945808bdbf8f7fd6110b8f"
+    },
+    {
+      "path": "MVStudio/video_engine.py",
+      "bytes": 17152,
+      "sha256": "2b9579a3a8021c730e2f3e6531236ee1e039a44d2bc69fc03bf0de88612a6dc2"
+    },
+    {
+      "path": "MVStudio/video_trash.py",
+      "bytes": 1197,
+      "sha256": "13d4bcc3da5c987304640a543691f080046dbdad9b70026b8c701f403ae9b8f5"
+    },
+    {
+      "path": "MVStudio/view-state.js",
+      "bytes": 2371,
+      "sha256": "abefcda726a80f164db64d32980bd07072b396d392c1b11e2f6394fe01071595"
+    },
+    {
+      "path": "MVStudio/workflow_open.py",
+      "bytes": 3548,
+      "sha256": "e734eec4b61f9b5b17f402fb3414fa03493bef23af983e69a035eedd31fa42f3"
+    },
+    {
+      "path": "MVStudio/启动MV平台.cmd",
+      "bytes": 111,
+      "sha256": "aeb47b59e6ec9056c70c9ae3d566feee037e3ce8537b92d3e374ace28ea7a0e4"
+    },
+    {
+      "path": "MVStudio/启动MV平台.ps1",
+      "bytes": 1852,
+      "sha256": "116b8e26e5dda10c988e719a48daa4392ea1ce648cba9ca9fdf83e7a48a6b866"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1951,
+      "sha256": "d5456b457a449b3d6bdf12deb390c60a1fefb1458b992a6a7b7ccf6ca91e1095"
+    }
+  ]
+}

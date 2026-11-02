@@ -1,0 +1,63 @@
+/* Mobile layout; desktop rules remain in style.css. */
+@media (max-width:720px){
+  body{font-size:14px;overflow-wrap:anywhere}
+  body>aside{display:block;position:static;width:auto;height:auto;padding:12px 16px;border-right:0;border-bottom:1px solid var(--line)}
+  aside .brand,aside .new,aside .aside-label,aside .nav,aside .aside-bottom{display:none}
+  aside>div:has(#projectLibraryList){margin:0!important}
+  #projectLibraryList{display:flex!important;overflow-x:auto;gap:8px;padding-bottom:6px}
+  #projectLibraryList>button{flex:0 0 160px;width:160px!important;min-height:64px}
+  #projectLibraryStatus{margin:5px 0}
+  main,.workspace,.card,.editor,.editor>*{min-width:0}
+  header{height:auto;min-height:64px;flex-wrap:wrap;gap:10px;padding:12px 16px}
+  header>div:first-child{white-space:nowrap}
+  .header-actions{flex-wrap:wrap;gap:8px}
+  .header-actions button{white-space:nowrap;min-height:44px;font-size:12px}
+  .workspace{padding:20px 14px}
+  .heading{flex-wrap:wrap}.heading h1{font-size:25px}.heading p{font-size:12px}
+  .heading .primary{font-size:13px;min-height:44px}
+  .overview{padding:16px}.overview:after{display:none}
+  .overview-head,.tags,.overview-bottom,.section-head,.preview-head,.preview-actions,.modal-actions,.right-title.flex{flex-wrap:wrap;gap:10px}
+  .tags span{font-size:12px}.overview-bottom{line-height:1.8}
+  #synopsis{font-size:14px;line-height:1.9}
+  .section-head{align-items:flex-start}.section-head>div{min-width:0;max-width:100%}
+  .section-head>div:last-child{display:flex;flex-wrap:wrap;gap:8px}
+  .section-head a{display:inline-block;line-height:1.8}
+  .tabs{max-width:100%;gap:20px;scrollbar-width:thin}
+  .tabs button{flex:0 0 auto;font-size:13px;min-height:44px;padding-bottom:12px}
+  .card{padding:14px}.editor{grid-template-columns:minmax(0,1fr);gap:14px}
+  .editor>.card:last-child{grid-column:auto}
+  .character-list{max-width:100%}.character-item{flex-shrink:0;white-space:normal}
+  .preview-actions button{flex:1 1 135px;min-height:44px;font-size:13px}
+  button{max-width:100%;white-space:normal;touch-action:manipulation}
+  input:not([type=checkbox]):not([type=radio]),textarea,select{font-size:16px;min-width:0;max-width:100%}
+  input[type=checkbox],input[type=radio]{width:auto;min-height:auto}
+  label,.mini-label,.subtle{font-size:12px}
+  .field-row{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .angle-grid{grid-template-columns:minmax(0,1fr);height:auto}
+  .angle{min-width:0}.angle img{max-width:100%;object-fit:contain}
+  .artboard:has(.angle-grid){height:auto!important;min-height:0!important}
+  .scene-image-box{min-height:160px}
+  img,video,canvas,audio{max-width:100%}
+  pre{white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%}
+  dialog{width:calc(100% - 24px)!important;max-width:calc(100% - 24px);padding:18px;max-height:88dvh}
+  .modal-head{gap:10px}.modal-head h2{font-size:20px}.modal-head button{flex-shrink:0;min-width:44px;min-height:44px}
+  .modal-actions button{flex:1 1 120px;min-height:44px}
+  #toast{left:16px;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));max-width:calc(100% - 32px);padding:12px 16px;text-align:center}
+  footer{line-height:1.8}
+}
+@media(max-width:380px){.field-row{grid-template-columns:minmax(0,1fr)}.heading h1{font-size:23px}}
+
+/* Keep individual view controls compact even with inline preview styles. */
+@media(max-width:720px){
+  .angle-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;padding:6px;gap:8px}
+  .angle-grid .angle{min-width:0}
+  .angle-grid .angle button{white-space:nowrap;min-height:40px;padding:6px 8px!important;font-size:12px!important;line-height:1.4}
+  .angle-grid .angle>div{min-width:0;flex-wrap:wrap!important;gap:6px!important;margin-left:4px!important;margin-right:4px!important}
+  .angle-grid .angle select{width:100%;max-width:100%!important;min-width:0;font-size:12px;padding:6px}
+  .angle-grid .angle>span{font-size:11px;line-height:1.6;padding:4px}
+}
+@media(max-width:800px){
+ #panel .character-list{display:flex;flex-direction:column;gap:8px;width:100%;max-width:100%;max-height:none;overflow:visible}
+ #panel .character-list>.character-item{width:100%;min-width:0;max-width:100%;flex:0 0 auto;margin-bottom:0;white-space:normal}
+ #panel .character-list>.character-item>div{min-width:0;overflow-wrap:anywhere}
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>帧序 Frame Studio</title>
+  <rect x="2" y="2" width="124" height="124" rx="30" fill="#111b27" stroke="#2a3c48" stroke-width="2"/>
+  <rect x="41" y="23" width="62" height="62" rx="10" fill="none" stroke="#537d72" stroke-width="6"/>
+  <rect x="25" y="39" width="62" height="62" rx="10" fill="#111b27" stroke="#abdbc7" stroke-width="6"/>
+  <path d="M49 55 72 70 49 85Z" fill="#abdbc7" stroke="#abdbc7" stroke-width="3" stroke-linejoin="round"/>
+</svg>

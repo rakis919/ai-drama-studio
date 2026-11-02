@@ -1,0 +1,1 @@
+function generationGpuLabel(job){const gpu=job?.execution_device;if(!gpu?.name)return '\u0047\u0050\u0055\u672a\u8bb0\u5f55';const source=gpu.source==='LightCC'?'LightCC':gpu.source==='remote'?'\u8fdc\u7a0b':'\u672c\u5730';return source+' / '+gpu.name+(gpu.vram_total_bytes?' / '+(gpu.vram_total_bytes/1073741824).toFixed(1)+'GB':'');}

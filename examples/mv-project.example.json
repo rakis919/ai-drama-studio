@@ -1,0 +1,13 @@
+{
+  "id": "00000000000000000000000000000001",
+  "name": "MV空白示例",
+  "aspect_ratio": "16:9",
+  "song": {
+    "lyrics": "",
+    "style": "",
+    "language": "zh"
+  },
+  "characters": [],
+  "scenes": [],
+  "shots": []
+}

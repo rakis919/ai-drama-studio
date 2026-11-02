@@ -1,0 +1,14 @@
+{
+  "project_id": "EXAMPLE_DRAMA",
+  "title": "短剧空白示例",
+  "aspect_ratio": "16:9",
+  "characters": [],
+  "scenes": [],
+  "shots": [],
+  "shotScript": {
+    "endpoint_generation_policy": {
+      "strategy": "per_shot_verified_first",
+      "default_video_method": "first_frame"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+const fs=require('fs'),path=require('path');
+function active(root='D:/AIPlatform/MVStudio/data'){if(!fs.existsSync(root))return false;for(const id of fs.readdirSync(root)){for(const sub of ['frame-jobs','video-jobs','batches']){const dir=path.join(root,id,sub);if(!fs.existsSync(dir))continue;for(const name of fs.readdirSync(dir)){if(!name.endsWith('.json')||name.endsWith('-workflow.json')||name.endsWith('-progress.json'))continue;let j;try{j=JSON.parse(fs.readFileSync(path.join(dir,name),'utf8'))}catch{continue}if(sub==='batches'){if(['running','pausing','paused'].includes(j.status)&&Object.values(j.generation_devices||{}).includes('lightcc'))return true;}else if(j.execution_backend==='lightcc'&&!['completed','failed','cancelled'].includes(j.status))return true;}}}return false;}
+function assertIdle(){if(active())throw Error('MV平台仍有LightCC任务或结果待取回，请先在MV平台完成或停止任务');}
+module.exports={active,assertIdle};

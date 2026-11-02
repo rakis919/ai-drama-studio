@@ -1,0 +1,15 @@
+(function(){
+ const $=s=>document.querySelector(s),target=$('#toolSize');
+ const box=document.createElement('div');box.id='generationSizeOptions';box.innerHTML='<label>输出方式<select id="generationSizeMode"><option value="native">原生直出</option><option value="upscale">生成后高清放大</option></select></label><label>原生生成尺寸<select id="generationNativeLong"><option value="768">长边 768 px · 默认</option><option value="1024">长边 1024 px</option><option value="1280">长边 1280 px</option><option value="1536">长边 1536 px</option><option value="2048">长边 2048 px</option></select></label><p class="subtle" id="generationSizeSummary"></p>';
+ const field=target.closest('fieldset')||target.closest('.ratio-field');(field||target.parentElement).before(box);
+ const mode=$('#generationSizeMode'),native=$('#generationNativeLong'),summary=$('#generationSizeSummary'),hint=$('#toolSizeHint');
+ function available(){return ['text-image','image-image'].includes(document.querySelector('[data-kind][aria-selected="true"]')?.dataset.kind);}
+ function values(){const [tw,th]=target.value.split('x').map(Number),long=Number(native.value),step=$('#toolImageModel').value==='qwen-image-2.1'?32:16,f=long/Math.max(tw,th),w=Math.max(256,Math.round(tw*f/step)*step),h=Math.max(256,Math.round(th*f/step)*step);return {size_mode:mode.value,native_width:w,native_height:h,width:mode.value==='native'?w:tw,height:mode.value==='native'?h:th};}
+ function render(){box.hidden=!available();if(box.hidden){target.hidden=false;return;}const v=values();const label=target.closest('label');if(label){for(const n of label.childNodes){if(n.nodeType===3&&n.textContent.trim()){n.textContent=mode.value==='upscale'?'放大输出尺寸':'画面比例尺寸参考';break;}}}target.hidden=mode.value==='native';const text='原生 '+v.native_width+' × '+v.native_height+' px'+(mode.value==='upscale'?' → 高清放大 '+v.width+' × '+v.height+' px':' · 直接输出');summary.textContent=text+(Number(native.value)>1024?'；较大原生尺寸会增加耗时和显存占用。':'');if(hint&&hint.textContent!==text)hint.textContent=text;}
+ function save(){try{localStorage.setItem('image-size-choice-'+document.querySelector('[data-kind][aria-selected="true"]')?.dataset.kind,JSON.stringify({size_mode:mode.value,native_long:native.value}));}catch{}target.dispatchEvent(new Event("change"));render();}
+ window.ImageSizeOptions={values,restore(form={}){let saved={};try{saved=JSON.parse(localStorage.getItem('image-size-choice-'+document.querySelector('[data-kind][aria-selected="true"]')?.dataset.kind)||'{}');}catch{}mode.value=form.size_mode||saved.size_mode||'native';const n=String(form.native_long||saved.native_long||768);if(![...native.options].some(o=>o.value===n)){native.add(new Option('长边 '+n+' px',n));}native.value=n;render();}};
+ mode.addEventListener('change',save);native.addEventListener('change',save);target.addEventListener('change',render);$('#toolImageModel').addEventListener('change',render);
+ new MutationObserver(render).observe($('#toolRatios'),{childList:true,subtree:true,attributes:true});
+ if(hint)new MutationObserver(render).observe(hint,{childList:true});
+ window.ImageSizeOptions.restore();
+})();
